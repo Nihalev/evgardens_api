@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "evgardens_api/wsgi.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "evgardens_api/wsgi.py"
+    }
+  ]
+}
