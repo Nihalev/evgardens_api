@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'evgardens_api.wsgi.application'
+WSGI_APPLICATION = 'evgardens_api.wsgi.app'
 
 
 # Database
